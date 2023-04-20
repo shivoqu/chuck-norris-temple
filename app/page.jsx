@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <>
       <h1
-        className={`${inter.className} m-0 max-w-[30ch] mb-20 text-4xl opacity-50`}
+        className={`${inter.className} m-0 mb-20 text-4xl opacity-50`}
       >
-        welcome to the Chuck Norris cult
+        press "continue" to proceed to the Temple
       </h1>
       <Link
         href={"/facts"}
@@ -18,7 +18,7 @@ export default function Home() {
         focus:bg-green-800 focus:text-green-300 focus:scale-110
         "
       >
-        Continue
+        continue
       </Link>
     </>
   );
